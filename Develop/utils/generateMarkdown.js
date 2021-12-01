@@ -48,9 +48,9 @@ function renderLicenseSection(license) {
     return license;
   } else {
     return `
-    ## License
+## License
 
-    [![License](${renderLicenseBadge(license)})](${renderLicenseLink(license)})
+![${license} License](${renderLicenseBadge(license)})
     `;
   }
 }
@@ -58,46 +58,46 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}
+# ${data.projectTitle}
 
-  ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
 
-  ## Table-of-Contents
+## Table-of-Contents
 
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-  ## [Description](#table-of-contents)
+## [Description](#table-of-contents)
 
-  ${data.projectDescription}
+${data.projectDescription}
 
-  ## [Installation](#table-of-contents)
+## [Installation](#table-of-contents)
 
-  ${data.installInstructions}
+${data.installInstructions}
 
-  ## [Usage](#table-of-contents)
+## [Usage](#table-of-contents)
 
-  ${data.usageInfo}
+${data.usageInfo}
 
-  ## [Contributing](#table-of-contents)
+## [Contributing](#table-of-contents)
   
-  ${data.contributionGuidelines}
+${data.contributionGuidelines}
 
-  ## [Tests](#table-of-contents)
+## [Tests](#table-of-contents)
 
-  ${data.testInstructions}
+${data.testInstructions}
   
-  ## [Questions](#table-of-contents)
+## [Questions](#table-of-contents)
 
-  Contact me:
+Contact me:
 
-  [GitHub](https://github.com/${data.githubUsername})
+[GitHub](https://github.com/${data.githubUsername})
   
-  [Email: ${data.email}](mailto:${data.email})
+[Email: ${data.email}](mailto:${data.email})
 `;
 }
 
