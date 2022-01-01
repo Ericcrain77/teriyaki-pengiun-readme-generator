@@ -5,7 +5,7 @@
 ## Table of Contents
 * [Description](#description)
 * [User Story](#user-story)
-* [Screenshots](#screenshots)
+* [Screenshot](#screenshot)
 * [Tutorial](#tutorial)
 * [Technologies](#technologies)
 * [Questions](#questions)
@@ -24,10 +24,10 @@ SO THAT I can quickly create a professional README for a new project
 
 ## Screenshot
 
-![]()
+![Generated-Readme-with-terminal-questions](assets/images/Generated-Readme-with-terminal-questions.png)
 
 ## Tutorial
-[Tutorial Video]()
+[Tutorial Video](assets/tutorial-video/Challenge-9-Tutorial.mkv)
 
 ## Technologies
 This application utilizes the following:
