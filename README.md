@@ -6,6 +6,7 @@
 * [Description](#description)
 * [User Story](#user-story)
 * [Screenshots](#screenshots)
+* [Tutorial](#tutorial)
 * [Technologies](#technologies)
 * [Questions](#questions)
 
@@ -25,8 +26,8 @@ SO THAT I can quickly create a professional README for a new project
 
 ![]()
 
-## Tutorial Video
-[]()
+## Tutorial
+[Tutorial Video]()
 
 ## Technologies
 This application utilizes the following:
